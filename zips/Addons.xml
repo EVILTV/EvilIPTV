@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="plugin.video.vexe"
-		   name="Evil Reload"
-		   version="1.0.3"
-		   provider-name="Team Evil">
+	<addon id="plugin.video.vexe" name="Evil Reload" version="1.0.3" provider-name="Team Evil">
 	  <requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
