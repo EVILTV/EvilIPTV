@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+	<addon id="plugin.video.vexe"
+		   name="Evil Reload"
+		   version="1.0.3"
+		   provider-name="Team Evil">
+	  <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.simple.downloader" version="0.9.4"/>
+		<import addon="script.module.beautifulsoup4" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.httplib2" />
+		<import addon="script.module.youtube.dl" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.urlresolver" optional="true"/>
+		<import addon="script.module.simplejson" />    
+		 <import addon="script.module.livestreamer" optional="true"/>
+	  </requires>
+	  <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	  </extension>
+	  <extension point="xbmc.addon.metadata">
+		<summary></summary>
+	<description>
+	[COLOR yellow]Questo add-on come tanti altri è destinato a CHIUDERE.[/COLOR][COLOR white]Alcuni individui estraggono le url dei flussi protetti degli add-on per pubblicarli sulle proprie pagine Facebook o siti web.[/COLOR][COLOR red]Così facendo causano il blocco della lista che rende gli add-on inutilizzabili.[B][I]DIFFIDATE DA CHI REGALA URL E FILE M3U.[/COLOR][COLOR blue]SONO SOLO DEI PAGLIACCI CHE STANNO DISTRUGGENDO KODI!!![/COLOR][/I][/B] 
+	</description>
+		<platform>all</platform>
+	  </extension>
+	</addon>
+</addons>
